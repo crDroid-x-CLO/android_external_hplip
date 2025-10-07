@@ -14,6 +14,7 @@
 
 cc_defaults {
     name: "hplip-defaults",
+    relative_install_path: "cups/filter",
     cflags: [
         "-DPACKAGE_NAME=\"HP Linux Imaging and Printing\"",
         "-DPACKAGE_TARNAME=\"hplip\"",
