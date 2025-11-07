@@ -57,6 +57,7 @@ cc_defaults {
         "-Wno-tautological-pointer-compare",
         "-Wno-constant-conversion",
         "-Wno-missing-braces",
+        "-Wno-tautological-constant-out-of-range-compare",
     ],
     visibility: [
         "//visibility:private",
